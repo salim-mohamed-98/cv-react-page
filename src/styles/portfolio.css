@@ -1,0 +1,130 @@
+@media screen {
+  ul.cards {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 950px;
+    margin: auto;
+  }
+
+  .cards .card {
+    max-width: 350px;
+    width: -webkit-fill-available;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    border: 2px black solid;
+    overflow: hidden;
+  }
+
+  .card,
+  h3,
+  p,
+  small {
+    margin: 0;
+  }
+
+  .card .cover {
+    height: 175px;
+    background-color: #743c9b;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+  }
+
+  .card .text {
+    margin: 15px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .text p {
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+  .text small {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  dialog {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  dialog button[data-close-modal] {
+    margin-top: 30px;
+  }
+
+  dialog article h1 {
+    font-size: 25px;
+  }
+
+  dialog article .content {
+    margin: auto;
+    max-width: 500px;
+  }
+
+  dialog article .content p {
+    margin-top: 6px;
+  }
+
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.419);
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    background-color: cadetblue;
+    color: #f5f5f5;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 6px;
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul.cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media print {
+  dialog {
+    display: block;
+    position: relative;
+    max-width: auto;
+    width: auto;
+    border: none;
+  }
+
+  .card .text small {
+    font-size: 16px;
+  }
+
+  dialog article .content small {
+    display: none;
+  }
+
+  dialog article h1 {
+    display: none;
+  }
+}

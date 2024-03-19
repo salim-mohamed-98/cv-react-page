@@ -1,0 +1,43 @@
+.section-one {
+  display: flex;
+  justify-content: stretch;
+  gap: 16px;
+}
+
+.section-one article {
+  width: 100%;
+}
+
+.section-one article {
+  text-align: center;
+}
+
+article p {
+  margin-bottom: 35px;
+}
+
+article a {
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+
+.themeSwitch {
+  margin: 200px auto;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .section-one {
+    flex-flow: column;
+    gap: 60px;
+  }
+
+  .article {
+    max-width: 425px;
+    margin: 10px auto;
+  }
+}

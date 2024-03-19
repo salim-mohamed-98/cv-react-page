@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  justify-content: stretch;
+  margin: 40px 0;
+}
+
+ul.v-list {
+  list-style-type: square;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.v-list li {
+  position: relative;
+}
+
+ul.v-list li:not(:last-child)::after {
+  content: "\00B7";
+  margin: 0 8px;
+}
+
+dt::before {
+  content: "\00B7";
+  margin-right: 5px;
+}
+
+dt {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+dl div:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    margin: auto;
+    grid-template-columns: 1fr;
+    max-width: 450px;
+  }
+}

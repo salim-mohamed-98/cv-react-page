@@ -1,0 +1,32 @@
+{
+  "introductory": "I'm currently enrolled in a distance education program at Edugrade,a leading vocational school for .NET system development with AI expertise. I'm in the last semester, gained a deep understanding of system development principles and applying Azure AI techniques.",
+  "experiences": [
+    {
+      "title": "Bike Curier at Foodora",
+      "description": "I kicked off my city life by diving into the hustle as a bike courier. It's been quite the ride, and the experiences have been eye-opening. Along the way, I've observed variations in city structures and living spaces, witnessing the diversity that comes with it."
+    },
+    {
+      "title": "Contract based painter",
+      "description": "I jumped into the painting scene, taking on contracts to splash color on both the inside and outside of houses. It was a gig that brought out my artistic side and kept the creative juices flowing."
+    },
+    {
+      "title": "Agricultural work",
+      "description": "Spent a good chunk of my working life knee-deep in the farming world, juggling both part-time and full-time gigs. It was a hands-in-the-dirt kind of hustle that shaped a big part of my journey."
+    }
+  ],
+  "educations": [
+    {
+      "title": "Edugrade",
+      "description": ".NET System Developer with AI Expertise. Edugrade Vocational College. Sundsvall, Sweden."
+    },
+    {
+      "title": "Distribution Electrician",
+      "description": "Education and Training Programs in Electrical Engineering."
+    },
+    {
+      "title": "Secondary School/High school",
+      "description": "I graduated in Technical program, year 2015. Learned how to code and do 3D modeling."
+    }
+  ],
+  "skills": ["C#", "Javascript", "Asp.net", "Azure", "CSS", "Python"]
+}

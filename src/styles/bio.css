@@ -1,0 +1,15 @@
+.image-container {
+  border-radius: 100%;
+  border: black 5px solid;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.image-container img {
+  position: absolute;
+  left: -20px;
+  top: -35px;
+}
